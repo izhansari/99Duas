@@ -143,3 +143,9 @@ One-click options from the original template:
 - **Cloudflare Pages** — same pattern
 
 Build output is `dist/` (standard Vite static output). No server-side rendering.
+
+---
+
+## Pending Work
+
+- [ ] **Replace all 100 dua texts** — The file `My Dua Collection 99 Names.pdf` in the repo root contains the complete, revised personal duas. Each entry in the `D` array has a `personalDua` field (index 5 in the tuple) that needs to be replaced with the corresponding dua from the PDF, matched by Name number (0–99). The PDF duas are significantly longer and more personal than the current placeholder versions.
