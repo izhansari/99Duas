@@ -264,7 +264,6 @@ return(
 <div style={{width:40,height:1,background:Gd,margin:"16px 0",opacity:0.5}}/>
 <div style={{fontSize:15,lineHeight:1.95,color:"#C8C0B4",fontStyle:"italic"}}>{mcont.du}</div>
 <div style={{display:"flex",gap:8,marginTop:20}}>
-<button onClick={()=>{mclose();sFc(mcont);}} style={{flex:1,background:"none",border:"1px solid "+BD,color:G,padding:"10px 0",borderRadius:8,cursor:"pointer",fontSize:12,fontFamily:"Helvetica Neue,sans-serif"}}>Focus Mode</button>
 <button onClick={()=>sRm(rnd())} style={{flex:1,background:"none",border:"1px solid "+BD,color:G,padding:"10px 0",borderRadius:8,cursor:"pointer",fontSize:12,fontFamily:"Helvetica Neue,sans-serif"}}>Another</button>
 </div></>):(<><div style={{textAlign:"center",marginBottom:16}}>
 <div style={{fontSize:20,color:G}}>{"Yā "+mcont.n}</div>
@@ -273,7 +272,6 @@ return(
 <div style={{width:40,height:1,background:Gd,margin:"0 auto 16px",opacity:0.5}}/>
 <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:Gd,marginBottom:10,fontFamily:"Helvetica Neue,sans-serif"}}>{"Understanding This Name"}</div>
 <div style={{fontSize:15,lineHeight:1.9,color:"#B0A898",fontStyle:"italic"}}>{mcont.ex}</div>
-<button onClick={()=>{mclose();sFc(mcont);}} style={{marginTop:16,width:"100%",background:"none",border:"1px solid "+BD,color:G,padding:"10px 0",borderRadius:8,cursor:"pointer",fontSize:12,fontFamily:"Helvetica Neue,sans-serif"}}>Focus Mode</button>
 </>)}
 </div></div>)}
 </div>);
